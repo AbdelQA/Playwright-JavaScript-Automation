@@ -1,3 +1,3 @@
 # PlaywrightJS
 
-WORK IN PROGRESS
+Work IN PROGRESS
