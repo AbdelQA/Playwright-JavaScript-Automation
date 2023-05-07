@@ -1,4 +1,4 @@
-# PlaywrightJS
+# Playwright Automation
 
 (NOTE: Work In Progress)
 
