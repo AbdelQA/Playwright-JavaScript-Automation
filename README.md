@@ -6,14 +6,23 @@
 
 ` npm install `
 
-## Running Tests (Headless mode):
+## Running ALL Tests (Headless mode):
+
+`npx playwright test`
+
+## Running ALL Tests (UI mode):
+
+`npx playwright test --ui`
+
+## API Tests:
+
+`npx playwright test apiTests.spec.js`
+
+## Login Tests:
 
 `npx playwright test loginTests.spec.js`
 
-## Running Tests (in UI mode):
+# Results (Chromium, Firefox, Safari)
 
-`npx playwright test loginTests.spec.js --ui`
+![image](https://user-images.githubusercontent.com/96100804/236949300-77d0def2-7f8b-413b-8967-f19106d095aa.png)
 
-# Results (in 3 different browsers: Chromium, Firefox, Safari)
-
-![image](https://user-images.githubusercontent.com/96100804/236651404-68ee213a-9fc4-49a7-a211-7c5488e70f82.png)
